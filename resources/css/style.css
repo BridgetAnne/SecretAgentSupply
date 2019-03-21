@@ -1,0 +1,46 @@
+
+/* Universal */
+
+html {
+  font-size: 18px;
+  font-family: helvetica;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+}
+.logo {
+  background-color: black;
+}
+.logo img {
+  height: 1.5rem;
+  width: auto;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+.logo span {
+  padding: 0.66rem auto;
+  font-variant: capitalize;
+}
+.banner {
+  background-image: url("../images/motobackground.jpg");
+  height: 25rem;
+}
+.arrival {
+  padding: 2rem auto 2rem 3rem;
+  margin: 9rem auto auto 7rem; /*adjust margin?*/
+  font-variant: capitalize; /*correct term?*/
+}
+.arrival h1 {
+  padding-top: 0.25rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+nav {
+  background-color: firebrick;
+  padding: 0.75rem auto 0.75rem auto;
+}
+
+/* Content */
