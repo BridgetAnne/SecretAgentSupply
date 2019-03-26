@@ -144,6 +144,7 @@ footer .container {
     padding-left: 1rem;
   }
   .banner {
+    height: 20rem;
     padding-left: 3rem;
   }
   .headline {
@@ -179,5 +180,41 @@ footer .container {
   }
 }
 @media only screen and (max-width: 470px) {
-
+  .banner {
+    padding-left: 0;
+    height: 15rem;
+  }
+  .headline {
+    position: relative;
+    top: 10rem;
+    width: 100%;
+    padding: 1rem 0 1rem 2rem;
+  }
+  .headline h4 {
+    font-size: 0.77rem;
+  }
+  .headline h1 {
+    font-size: 1rem;
+  }
+  .product {
+    width: 90%;
+  }
+  .product.watch {
+    display: none;
+  }
+  .business-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .info {
+    width: 90%;
+  }
+  .info.hours {
+    padding-top: 0.5rem;
+  }
+  footer {
+    text-align: center;
+  }
 }
