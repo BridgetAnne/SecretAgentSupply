@@ -7,44 +7,72 @@
     <link rel="stylesheet" href="resources/css/style.css" type="text/css">
   </head>
   <body>
-    <header>
+    <header><!-- She uses boxes over each spot, not "header"-->
       <div class="logo">
-        <img src="resources/images/logo.png" alt="Binocular logo">
-        <span>Secret Agent Supply Inc.</span>
+        <div class="container"><!-- She call's this "container"-->
+          <img src="resources/images/logo.png" alt="Binocular logo">
+          <span>Secret Agent Supply Inc.</span>
+        </div>
       </div>
       <div class="banner">
-        <div class="arrival">
-          <span>New Arrival</span>
-          <h1>Sport Bikes And Motorcycles</h1>
+        <div class="container"><!--She calls this also "container"-->
+          <div class="headline">
+            <h4>New Arrival</h4>
+            <h1>Sport Bikes And Motorcycles</h1>
+          </div>
         </div>
       </div>
       <nav>
-        <span><a href="#">Eyewear</a></span>
-        <span><a href="#">Apparel</a></span>
-        <span><a href="#">Gadgets</a></span>
-        <span><a href="#">Vehicles</a></span>
-        <span><a href="#">Classes</a></span>
-        <span><a href="#">Contact</a></span>
+        <ul class="container">
+          <li><a href="#">Eyewear</a></li>
+          <li><a href="#">Apparel</a></li>
+          <li><a href="#">Gadgets</a></li>
+          <li><a href="#">Vehicles</a></li>
+          <li><a href="#">Classes</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="small-nav container">
+          <li>Menu</li>
+        </ul>
       </nav>
-    </header>
-    <main>
-      <div class="products">
-        <span>Exploding Pen</span>
-        <span>Cellular Watch</span>
-        <span>Thermal Glasses</span>
-      </div>
-      <div class="info">
-        <div class="location">
-          <span>Location</span>
-          <span>-47.346436, 84.32354</span>
+    </header><!-- -->
+    <main><!-- She doesn't use "main", just div boxes-->
+      <div class="container">
+        <div class="products">
+          <div class="product pen">
+            <div class="product-img">
+              <img src="resources/images/pen.png">
+            </div>
+            <span class="description">Exploding Pen</span>
+          </div>
+          <div class="product watch">
+            <div class="product-img">
+              <img src="resources/images/watch.png">
+            </div>
+            <span class="description">Cellular Watch</span>
+          </div>
+          <div class="product glasses">
+            <div class="product-img">
+              <img src="resources/images/glasses.png">
+            </div>
+            <span class="description">Thermal Glasses</span>
+          </div>
         </div>
-        <div class="hours">
-          <span>Hours</span>
-          0800 - 1800
+        <div class="business-info">
+          <div class="info">
+            <span class="title">Location</span>
+            <span>-47.346436, 84.32354</span>
+          </div>
+          <div class="info">
+            <span class="title">Hours</span>
+            <span>0800-1800<span>
+          </div>
         </div>
       </div>
       <footer>
-        <span>Copyright Secret Agent SUpply Inc.</span>
+        <div class="container">
+          <span>Copyright Secret Agent Supply Inc.</span>
+        </div>
       </footer>
     </main>
   </body>
